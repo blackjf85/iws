@@ -1,0 +1,25 @@
+.footer-section {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-row {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo-text {
+  font-size: 1.5rem;
+}
+
+.footer-copyright-text {
+  font-size: 0.75rem;
+}

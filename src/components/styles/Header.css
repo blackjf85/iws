@@ -1,0 +1,40 @@
+.header-section {
+  background-color: black;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-row {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-text {
+  font-size: 1.5rem;
+}
+
+.header-logo-text-link {
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.header-nav-link {
+  color: white;
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+.header-nav-link.first-of-type {
+  margin-left: none;
+}
