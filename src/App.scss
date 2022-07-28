@@ -1,0 +1,132 @@
+// Header
+.header {
+  background-color: black;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  &__row {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo-text {
+    font-size: 1.5rem;
+  }
+
+  &__logo-text-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  &__nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  &__nav-link {
+    color: white;
+    margin-left: 1em;
+    text-decoration: none;
+
+    &__first-of-type {
+      margin-left: none;
+    }
+  }
+}
+
+// Home
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }
+
+  &__heading {
+    font-size: 3rem;
+  }
+
+  &__subheading {
+    font-size: 2rem;
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }
+
+  &__button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+  }
+
+  &__button-link {
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+// Footer
+.footer {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  &__footer-row {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__footer-logo-text {
+    font-size: 1.5rem;
+  }
+
+  &__footer-copyright-text {
+    font-size: 0.75rem;
+  }
+}

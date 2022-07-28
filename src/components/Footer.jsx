@@ -1,16 +1,15 @@
 import React from "react";
-import "./styles/Footer.css";
 
 const Footer = () => {
   return (
-    <section className="footer-section">
-      <container className="footer-row">
-        <div className="footer-logo-container">
-          <h1 className="footer-logo-text">Insatix Web Solutions</h1>
+    <section className="footer">
+      <container className="footer__row">
+        <div className="footer__logo-container">
+          <h1 className="footer__logo-text">Insatix Web Solutions</h1>
         </div>
-        <div className="footer-copyright-container">
-          <p className="footer-copyright-text">
-            Copyright Insatix Web solutions LLC
+        <div className="footer__copyright-container">
+          <p className="footer__copyright-text">
+            Copyright Insatix Web Solutions LLC
           </p>
         </div>
       </container>
