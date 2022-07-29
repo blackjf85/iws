@@ -8,7 +8,7 @@
   align-items: center;
 
   &__row {
-    width: 80vw;
+    width: 1280px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,6 +33,7 @@
     color: white;
     margin-left: 1em;
     text-decoration: none;
+    font-size: 1rem;
 
     &__first-of-type {
       margin-left: none;
@@ -55,7 +56,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;
+    width: 1280px;
   }
 
   &__content {
@@ -72,6 +73,10 @@
 
   &__subheading {
     font-size: 2rem;
+  }
+
+  &__text {
+    font-size: 1rem;
   }
 
   &__button-container {
@@ -91,6 +96,7 @@
   }
 
   &__button-link {
+    font-size: 1rem;
     border: 1px solid black;
     border-radius: 1em;
     padding: 0.5em;
@@ -114,19 +120,19 @@
   justify-content: center;
   align-items: center;
 
-  &__footer-row {
-    width: 80vw;
+  &__row {
+    width: 1280px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
 
-  &__footer-logo-text {
+  &__logo-text {
     font-size: 1.5rem;
   }
 
-  &__footer-copyright-text {
+  &__copyright-text {
     font-size: 0.75rem;
   }
 }

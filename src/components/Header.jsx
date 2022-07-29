@@ -32,6 +32,14 @@ const Header = () => {
                 Contact
               </Link>
             </li>
+            <li>
+              <a
+                href="https://blog.insatix-work.shop"
+                className="header__nav-link"
+              >
+                Blog
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
